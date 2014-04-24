@@ -5,7 +5,7 @@
 encode.py
 
 A simple calculator for doing basic transformation functions that are regularly
-useful for XSS, inspired by Rsnake(http://ha.ckers.org/xsscalc.html)
+useful for XSS, inspired by Rsnake(http://ha.ckers.org/xsscalc.html).
 
 """
 
@@ -44,7 +44,7 @@ def htmla2x(s, semicolon=True):
     return r
 
 def urla2x(s):
-    """onvert string to hexdecimal URL character. 
+    """Convert string to hexdecimal URL character. 
     """
     r = ""
     for i in s:
